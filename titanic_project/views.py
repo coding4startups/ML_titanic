@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from . import ML_Model
 
+
+
 def home(request):
 	return render(request, 'index.html')
 
