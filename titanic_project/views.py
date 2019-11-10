@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from . import test_model
 from . import ML_Model
 
 def home(request):
